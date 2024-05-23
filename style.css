@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     height: 100%;
-    width: 80%;
+    width: 33%;
     margin-right: 420px;
     margin-top: -10px;
 
@@ -50,7 +50,7 @@ p{
 }
 
 .Buscar{
-    width: 25px;
+    width: 33%;
     /* float: left; */
     margin-right: 50px;
     margin-top: 40px;
@@ -95,10 +95,10 @@ margin-left: 10px;
     }
 
     
-    .buscar{
+    /* .buscar{
         width: 0px;
 
-    }
+    } */
 
  
     
@@ -139,4 +139,38 @@ margin-left: 10px;
     .titulo2{
          padding-top: 30%;
      }
+ }
+
+ @media screen and (max-width: 1000px)   {
+    .header{
+
+    }
+
+    .buscar{
+        visibility: 0;
+
+    }
+    .img-redes{
+        visibility: hidden;
+    }/* arrumar a visibilidade e troca da foto do botão */
+
+
+    
+ }
+
+ .img-redes{
+    max-width: 30px;
+ }
+
+
+ .botão-redes{
+    display: flex;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+ }
+
+ .redes{
+    margin-top: 50px;
+    width: 33%;
  }
