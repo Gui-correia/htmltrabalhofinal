@@ -1,0 +1,142 @@
+.titulo2{
+    font-family: "Bebas Neue";
+    font-size: 5vw;
+}
+.titulo2{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    /* color: white; */
+}
+.foto-corinthians{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin-right: 420px;
+    margin-top: -10px;
+
+}
+
+p{
+    font-size: 2vw;
+    /* color: white; */
+    text-align: justify;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.descrição{
+    /* display: flex;
+    justify-content: center; */
+    /* color: white; */
+    font-size: 2vw;
+    margin-top: -5vw;
+    margin-left: 5vw;
+    /* margin-right: 4vw; */
+}
+
+.header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 10px 10px 20px black;
+    position: fixed;
+}
+
+.Buscar{
+    width: 25px;
+    /* float: left; */
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 400px;
+    
+}
+
+.foto-historia{
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.botao{
+display: flex;
+justify-content: start;
+height: 28px;
+background-color: white;
+border: none;
+border-radius: 10px;
+margin-top: 5px;
+margin-left: 10px;
+/* ajustar a posição da barra de pesquisa */
+}
+
+
+
+
+
+.barra{
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 1000px){
+    .foto-corinthians {
+        margin-left: -220px;
+        margin-right: 10px;
+        
+    }
+
+    
+    .buscar{
+        width: 0px;
+
+    }
+
+ 
+    
+}
+
+@media screen and (max-width: 1050px){
+   .titulo2{
+        padding-top: 8%;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .titulo2{
+        /* margin-top: 5%; */
+         padding-top: 12%;
+     }
+ }
+
+ @media screen and (max-width: 600px){
+    .titulo2{
+         padding-top: 15%;
+     }
+ } 
+
+ @media screen and (max-width: 390px){
+    .titulo2{
+         padding-top: 15%;
+     }
+ }
+
+ @media screen and (max-width: 480px){
+    .titulo2{
+         padding-top: 25%;
+     }
+ }
+
+ @media screen and (max-width: 350px){
+    .titulo2{
+         padding-top: 30%;
+     }
+ }
